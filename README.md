@@ -1,26 +1,5 @@
-# To-Do List
-Thanks for checking out my take on the brtual game of naval warfare, 'Battleship'.
-## About
-This project was completed as part of the ["Odin Project"](https://www.theodinproject.com/) curriculum.
+# Webpack Boilerplate
 
-** under construction **
+A boilerplate for projects using Webpack.
 
-## Technologies
-* Vanilla JS
-* HTML5
-* SASS
-* Webpack
-* Jest
-* Eslint && Prettier
-### Tools
-
-** under construction **
-### Packages / Dependencies
-
-** under construction **
-
-## Challenges
-** under construction **
-
-## Installation
-Clone the repository && Run `npm install`
+Comes pre-configured with Jest for unit testing.
