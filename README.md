@@ -1,15 +1,26 @@
-# 🚀 Welcome to your new awesome project!
+# To-Do List
+Thanks for checking out my take on the brtual game of naval warfare, 'Battleship'.
+## About
+This project was completed as part of the ["Odin Project"](https://www.theodinproject.com/) curriculum.
 
-This project has been created using **webpack-cli**, you can now run
+** under construction **
 
-```
-npm run build
-```
+## Technologies
+* Vanilla JS
+* HTML5
+* SASS
+* Webpack
+* Jest
+* Eslint && Prettier
+### Tools
 
-or
+** under construction **
+### Packages / Dependencies
 
-```
-yarn build
-```
+** under construction **
 
-to bundle your application
+## Challenges
+** under construction **
+
+## Installation
+Clone the repository && Run `npm install`
