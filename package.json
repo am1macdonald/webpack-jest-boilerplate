@@ -1,0 +1,48 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am1macdonald/battleship.git"
+  },
+  "author": "Adam MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/am1macdonald/battleship/issues"
+  },
+  "homepage": "https://github.com/am1macdonald/battleship#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.11.0",
+    "eslint-config-xo": "^0.40.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "prettier": "2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "xo": "^0.48.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}

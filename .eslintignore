@@ -1,0 +1,10 @@
+# ignore the distribution folders
+/dist
+
+# ignore config files
+
+webpack.config.js
+
+# ignore test files
+
+src/index.test.js
